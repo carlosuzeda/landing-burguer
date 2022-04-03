@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>LandingBurguer</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>Landing<span>Burguer</span></h1>
+                </div>
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact-button">
+                    <button><a href="#"></a>Contate-nos</button>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="assets/images/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                </ul>
+
+                <div class="contact-button">
+                    <button><a href="#"></a>Contate-nos</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="container" id="inicio">
+            <div class="saudacao">
+                <h1>Landing<span>Burguer</span></h1>
+                <h2>Agora você pode pedir seu lanche online em nosso site e aplicativo.</h2>
+                <p id="text"></p>
+                <a href="#">Saiba mais!</a> 
+            </div>
+            <img src="assets/images/image3.jpg" alt="tres hamburguers lado a lado">
+        </section>
+
+        <footer>
+            <div class="container footer">
+                <p>&copy; LandingBurguer</p>
+                <p>Desenvolvido por Carlos Uzeda.</p>
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
